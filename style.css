@@ -1,0 +1,198 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.section {
+    padding-bottom: 70px;
+}
+
+/* Header nav */
+nav .logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3E3E3E;
+}
+
+ul.navbar-nav li a {
+    font-weight: 600;
+}
+
+/* header End */
+
+/* Slider Start */
+section.slider {
+    padding-bottom: 70px;
+}
+
+.carousel-caption {
+    width: 50%;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.carousel-caption h5 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* Slider End */
+
+/* precious-moment  Start*/
+section.precious-moment.section {
+    position: relative;
+}
+
+.precious-moment-description h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.precious-moment-description p {
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+/* Toast */
+div#toast {
+    border-left: 7px solid #0c67ec;
+}
+
+.toast:not(.show) {
+    display: block;
+    position: absolute;
+    right: 18px;
+    top: 33%;
+}
+
+i.fa-solid.fa-gift.text-primary.me-2 {
+    font-size: 20px;
+}
+
+/* Toast */
+/* precious-moment  End*/
+
+
+/* Our package start */
+#hot-packate {
+    margin-top: -28px;
+    box-shadow: 0px 23px 37px -16px #0d6efd;
+}
+
+#hot-packate:before {
+    content: "Hot";
+    position: absolute;
+    right: 15px;
+    top: -17px;
+    background: #FF4E4E;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #231D4F;
+}
+
+.card-body h4 {
+    font-size: 28px;
+    color: #231D4F;
+    font-weight: 600;
+}
+
+.card-body p {
+    font-size: 15px;
+    color: #848199;
+}
+
+.card-list ul li {
+    padding: 5px 0px;
+    border: none;
+    color: #848199;
+    background: transparent;
+}
+
+.card-button a {
+    background-color: #FEF5FA;
+    font-weight: 600;
+}
+
+.card-list ul li i {
+    background: #EDECF9;
+    color: #5243C2;
+}
+
+#hot-package-button:hover {
+    background-color: #fff;
+}
+
+/* Our package End */
+
+footer {
+    padding: 70px 0px;
+    background: black;
+}
+
+
+
+@media screen and (max-width:768px) {
+    nav .logo {
+        font-size: 5vw;
+    }
+
+    img.d-block.w-100.img-fluid {
+        min-height: 500px;
+        object-fit: cover;
+    }
+
+    .carousel-caption h5 {
+        font-size: 6vw;
+    }
+
+    .carousel-caption {
+        width: 100%;
+        padding: 0px 10vw;
+    }
+
+    .precious-moment-row {
+        flex-direction: column-reverse;
+    }
+
+    .toast:not(.show) {
+        top: -13px;
+        right: 0;
+        width: 75%;
+    }
+
+    .faq-row {
+        flex-direction: column-reverse;
+    }
+
+    .accordion {
+        margin-top: 10px;
+    }
+
+    div#footer-row {
+        flex-direction: column-reverse;
+    }
+}
